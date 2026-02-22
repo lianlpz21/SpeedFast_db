@@ -6,9 +6,10 @@ import java.sql.SQLException;
 
 public class ConexionDB {
 
+    // URL db
     private static final String URL = "jdbc:mysql://localhost:3306/speedfast_db";
 
-    // Credenciales BD
+    // Credenciales db
     private static final String USER = "root";
     private static final String PASSWORD = "admin";
 

@@ -22,7 +22,7 @@ public class MainFrame extends JFrame {
         entregaPanel = new EntregaPanel();
         tabs.addTab("Entregas", entregaPanel);
 
-        // 🔥 REFRESCA CUANDO CAMBIAS A LA PESTAÑA
+        // Refrescar al actualizar datos
         tabs.addChangeListener(e -> {
             if (tabs.getSelectedIndex() == 2) {
                 entregaPanel.refrescarDatos();
